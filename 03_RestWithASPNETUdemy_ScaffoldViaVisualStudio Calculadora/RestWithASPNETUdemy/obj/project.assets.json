@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\02_RestWithASPNETUdemy_ScaffoldViaVisualStudio Calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+      "projectUniqueName": "E:\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\03_RestWithASPNETUdemy_ScaffoldViaVisualStudio Calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
       "projectName": "RestWithASPNETUdemy",
-      "projectPath": "E:\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\02_RestWithASPNETUdemy_ScaffoldViaVisualStudio Calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+      "projectPath": "E:\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\03_RestWithASPNETUdemy_ScaffoldViaVisualStudio Calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
       "packagesPath": "C:\\Users\\Gilmax\\.nuget\\packages\\",
-      "outputPath": "E:\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\02_RestWithASPNETUdemy_ScaffoldViaVisualStudio Calculadora\\RestWithASPNETUdemy\\obj\\",
+      "outputPath": "E:\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\03_RestWithASPNETUdemy_ScaffoldViaVisualStudio Calculadora\\RestWithASPNETUdemy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

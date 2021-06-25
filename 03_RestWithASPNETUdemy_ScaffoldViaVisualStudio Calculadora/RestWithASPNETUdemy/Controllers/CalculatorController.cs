@@ -67,7 +67,27 @@ namespace RestWithASPNETUdemy.Controllers
             return Ok(Subtracao);
         }
 
+        [HttpGet("Media/{firsNumber}/{secundNumber}")]
+        public IActionResult GetMedia(string firsNumber, string secundNumber)
+        {
+            string Media = _calculatorService.Media(firsNumber, secundNumber);
+            if (string.IsNullOrWhiteSpace(Media))
+            {
+                return BadRequest("Invalid Input");
+            }
+            return Ok(Media);
+        }
 
+        [HttpGet("Raiz/{firsNumber}")]
+        public IActionResult GetRaiz(string firsNumber)
+        {
+            string Raiz = _calculatorService.Raiz(firsNumber);
+            if (string.IsNullOrWhiteSpace(Raiz))
+            {
+                return BadRequest("Invalid Input");
+            }
+            return Ok(Raiz);
+        }
 
 
     }

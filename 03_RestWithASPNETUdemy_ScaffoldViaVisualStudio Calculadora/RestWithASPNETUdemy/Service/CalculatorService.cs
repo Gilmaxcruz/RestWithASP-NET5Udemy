@@ -29,6 +29,16 @@ namespace RestWithASPNETUdemy.Service
             return 0;
         }
 
+        private double ConvertTodouble(string strnumber)
+        {
+            double doubleValue;
+            if (double.TryParse(strnumber, out doubleValue))
+            {
+                return doubleValue;
+            }
+            return 0;
+        }
+
         public string Somar(string firsNumber, string secundNumber)
         {
             if (IsNumeric(firsNumber) && IsNumeric(secundNumber))
@@ -72,6 +82,30 @@ namespace RestWithASPNETUdemy.Service
 
                 var Divisao = ConvertToDecimal(firsNumber) / ConvertToDecimal(secundNumber);
                 return Divisao.ToString();
+
+            }
+            return string.Empty;
+        }
+
+        public string Media(string firsNumber, string secundNumber)
+        {
+            if (IsNumeric(firsNumber) && IsNumeric(secundNumber))
+            {
+
+                var Media = (ConvertToDecimal(firsNumber) + ConvertToDecimal(secundNumber)) / 2;
+                return Media.ToString();
+
+            }
+            return string.Empty;
+        }
+
+        public string Raiz(string firsNumber)
+        {
+            if (IsNumeric(firsNumber)) 
+            {
+               double firsNumber1 = (ConvertTodouble(firsNumber));
+                var Raiz = Math.Sqrt(firsNumber1);
+                return Raiz.ToString();
 
             }
             return string.Empty;
